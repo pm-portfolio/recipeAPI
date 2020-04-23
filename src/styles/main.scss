@@ -3,4 +3,80 @@
 body,
 body * {
   box-sizing: border-box;
+  background-image: url('../images/background.jpg');
+  background-size: contain;
+  background-attachment: fixed;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+form {
+  
+}
+input {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.header {
+  margin-bottom: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color:#ffffff;
+  border-radius:6px;
+  border:1px solid #dcdcdc;
+  display:inline-block;
+  cursor:pointer;
+  color:#666666;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+}
+button:hover {
+  background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+  background-color:#f6f6f6;
+}
+button:active {
+  position:relative;
+  top:1px;
+}
+
+
+.recipe,
+.header {
+  max-width: 350px;
+  min-width: 350px;
+}
+
+img {
+  width: 300px;
+}
+
+.recipe {
+  border: 5px dashed black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 1em;
+  margin-bottom: 2em;
+}
+
+
+        
