@@ -1,3 +1,6 @@
+# Published at:
+https://o0pmitev.github.io/recipeAPI/
+
 # DCI Boilerplate II: Webpack + babel
 
 A [Webpack 4](https://webpack.js.org/) boilerplate with built-in:
